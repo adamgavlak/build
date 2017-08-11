@@ -25,6 +25,13 @@ exports.config = {
         pug: {
             staticBasedir: 'views',
             staticPretty: true
+        },
+        autoReload: {
+            enabled: {
+                css: true,
+                js: true,
+                assets: true
+            }
         }
     },
 
