@@ -41,5 +41,6 @@ $ yarn
 ```
 $ brunch build               # Builds all files once
 $ brunch watch               # Builds all files after every change
+$ brunch watch --server      # Starts a server and auto reloads after every change
 $ brunch build --production  # Builds and minifies all files for production
 ```

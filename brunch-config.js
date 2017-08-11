@@ -23,7 +23,6 @@ exports.config = {
             imports: ['node_modules/normalize.css/normalize.css']
         },
         pug: {
-            staticBasedir: 'views',
             staticPretty: true
         },
         autoReload: {
