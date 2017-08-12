@@ -40,6 +40,11 @@ exports.config = {
         }
     },
 
+    server: {
+        port: 4000,
+        hostname: '0.0.0.0'
+    },
+
     npm: {
         enabled: true
     }
