@@ -1,5 +1,5 @@
-let fun = () => {
-    console.log(5)
+let fn = () => {
+    console.log("Hi! Welcome to Build, the simple static website toolkit.")
 }
 
-fun()
+fn()
