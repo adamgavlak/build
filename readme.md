@@ -1,6 +1,6 @@
 # Build
 
-Simple website build system using Brunch, Stylus (CSS), Babel (JS) and Pug (HTML). It outputs all files into the `docs` directory so it's easy to use with GitHub Pages, but you can easily configure it by changing `config.paths.public` in `brunch-config.js`.
+Simple static website toolkit using Brunch, Stylus (CSS), Babel (JS) and Pug (HTML). It outputs all files into the `docs` directory so it's easy to use with GitHub Pages, but you can easily configure it by changing `config.paths.public` in `brunch-config.js`.
 
 ## Installation 
 
