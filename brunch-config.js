@@ -13,7 +13,7 @@ exports.config = {
     },
 
     paths: {
-        watched: ["static", "css", "js", "views"],
+        watched: ["static", "css", "js"],
         public: "docs"
     },
 
@@ -23,7 +23,8 @@ exports.config = {
             imports: ['node_modules/normalize.css/normalize.css']
         },
         pug: {
-            staticPretty: true
+            staticPretty: true,
+            pugRuntime: false
         },
         autoReload: {
             enabled: {
@@ -36,7 +37,7 @@ exports.config = {
 
     modules: {
         autoRequire: {
-            'js/app.js': ['js/app']
+            'assets/app.js': ['js/app']
         }
     },
 
