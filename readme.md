@@ -1,8 +1,8 @@
-# Build
+# Build 🔧
 
 Simple website build system using Brunch, Stylus (CSS), Babel (JS) and Pug (HTML).
 
-## Installation
+## Installation 📀
 
 Clone this repository:
 
@@ -21,7 +21,7 @@ or using `yarn`:
 $ yarn
 ```
 
-## Directory structure
+## Directory structure 📂
 ```
 .
 ├── brunch-config.js
@@ -36,11 +36,11 @@ $ yarn
     └── index.pug       # Only *.pug files are compiled in static directory
 ```
 
-## Commands
+## Commands 👷
 
 ```
-$ brunch build               # Builds all files once
-$ brunch watch               # Builds all files after every change
-$ brunch watch --server      # Starts a server and auto reloads after every change
-$ brunch build --production  # Builds and minifies all files for production
+$ brunch build|b [-p|--production]    # Builds all files once
+                                      # -p|--production build files for production
+$ brunch watch|w [-s|--server]        # Builds files after every change
+                                      # -s|--server starts local dev server
 ```
